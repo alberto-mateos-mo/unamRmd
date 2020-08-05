@@ -1,0 +1,25 @@
+---
+title: "Document Title"
+author: "Author Name"
+date: "`r Sys.Date()`"
+output: pdf_document
+header-includes:
+  - \usepackage{titling}
+  - \usepackage{graphicx}
+  - \usepackage{fancyhdr}
+  - \pagestyle{fancy}
+  - \pretitle{\begin{center}
+  - \includegraphics[width=2in, height=2in]{unam_logo.png}\LARGE\\ \vspace{3cm}}
+  - \posttitle{\end{center}}
+  - \fancyfoot[R]{\includegraphics[height=1.5cm]{unam_logo.png}}
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+\newpage
+
+## Section 1
+
+## Section 2

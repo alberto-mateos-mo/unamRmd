@@ -1,0 +1,29 @@
+/*body {
+  background: -webkit-linear-gradient(left, #D59F0F, #D59F0F 1.5%, #002B7A 1.5%, #002B7A 5%, #ffffff 5%, #ffffff);
+  color: black;
+  font-size: 20px;
+}*/
+
+.header {
+  padding: 10px;
+  background: #84754E;
+  color: white;
+  font-size: 30px;
+}
+
+.header img {
+  width: 120px;
+  left: 6%;
+  position: relative;
+}
+
+.footer {
+  padding: 5px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #84754E;
+  color: white;
+  text-align: center;
+}

@@ -1,0 +1,4 @@
+name: UNAM PDF doc
+description: >
+   RMarkdown PDF, UNAM style
+create_dir: FALSE

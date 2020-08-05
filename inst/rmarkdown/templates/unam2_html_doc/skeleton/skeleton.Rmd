@@ -1,0 +1,24 @@
+---
+title: "Document Title"
+author: "Your Name"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    css: unam_style.css
+    includes: 
+      in_header: header.html
+      after_body: footer.html
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<br><br>
+
+***
+
+## Header 1
+
+## Header 2
+

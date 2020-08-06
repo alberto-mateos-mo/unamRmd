@@ -1,12 +1,6 @@
-/*body {
-  background: -webkit-linear-gradient(left, #D59F0F, #D59F0F 1.5%, #002B7A 1.5%, #002B7A 5%, #ffffff 5%, #ffffff);
-  color: black;
-  font-size: 20px;
-}*/
-
 .header {
   padding: 10px;
-  background: #84754E;
+  background: -webkit-linear-gradient(left, #D59F0F, #D59F0F 5%, #002B7A 5%, #002B7A);
   color: white;
   font-size: 30px;
 }
@@ -23,7 +17,7 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background-color: #84754E;
+  background: -webkit-linear-gradient(left, #D59F0F, #D59F0F 5%, #002B7A 5%, #002B7A);
   color: white;
   text-align: center;
 }

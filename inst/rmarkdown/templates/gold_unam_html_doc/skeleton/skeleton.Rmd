@@ -4,6 +4,8 @@ author: "Your Name"
 date: "`r Sys.Date()`"
 output: 
   html_document:
+    toc: true
+    toc_float: true
     css: unam_style.css
     includes: 
       in_header: header.html

@@ -7,11 +7,11 @@
 
 .header img {
   width: 120px;
-  left: 6%;
+  left: 3%;
   position: relative;
 }
 
-.footer {
+/*.footer {
   padding: 5px;
   position: fixed;
   left: 0;
@@ -20,4 +20,25 @@
   background-color: #84754E;
   color: white;
   text-align: center;
+}*/
+
+.list-group-item.active, .list-group-item.active:focus, .list-group-item.active:hover {
+    z-index: 2;
+    color: #FFFFFF;
+    background-color: #84754E;
+    border-color: #84754E;
+    font-weight: bold;
+}
+
+a:link {
+  color: #002B7A;
+}
+
+a:visited {
+  color: #002B7A;
+}
+
+
+body {
+  background: -webkit-linear-gradient(left, #84754E, #84754E 1.5%, #FFFFFF 1.5%, #FFFFFF);
 }

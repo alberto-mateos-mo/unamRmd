@@ -23,3 +23,13 @@ You can install the development version from
 # install.packages("devtools")
 devtools::install_github("alberto-mateos-mo/unamRmd")
 ```
+
+There are currently templates using UNAM and Science Faculty logos:
+
+#### UNAM HTML Doc
+
+![](07.png)
+
+#### Facultad de Ciencias HTML DOC
+
+![](06.png)
